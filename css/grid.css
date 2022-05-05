@@ -5,11 +5,13 @@
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem;
 }
-
+ /* container for grids, good to use to just see structure. turn this into a comment again to disable
+ 
 .grid div {
-  /*background-color:rgba(0,0,0,0.04);*/
-}
+  background-color:rgba(0,0,0,0.04);
 
+}
+*/
 /* H E I G H T */
 
 .height-2 {

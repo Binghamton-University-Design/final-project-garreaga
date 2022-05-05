@@ -1,6 +1,51 @@
 /*stylesheet*/
 
 /* vars */
+:root {
+	-- background-color: #fff;
+	-- body-color: #111;
+}
 
-  
+body {
+	margin:  0;
+	color: var(--body-color);
+	background: var(--background-color);
+	font-family: "Papyrus", fantasy;
+}
+
+.button1 {
+  z-index: 3;
+  background: skyblue;
+  position: absolute;
+  width:  43%;
+  height: 36%;
+  top: 18%;
+  left:  11%;
+}
+
+  h1 {
+  color: lightyellow;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+ p {
+  color: lightyellow;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+
+  #wrapper {
+  	margin: 0 auto;
+  	max-width: 1200px;
+  }
 
