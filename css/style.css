@@ -12,16 +12,108 @@ body {
 	background: var(--background-color);
 	font-family: "Papyrus", fantasy;
 }
-
+/* home page buttons */
+/* put backgroud: skyblue; to see them */
 .button1 {
+  z-index: 3;
+ 
+  position: absolute;
+  width:  11%;
+  height: 8%;
+  top: 35%;
+  left:  22%;
+  opacity:0.2
+
+}
+.button2 {
+  z-index: 3;
+ 
+  position: absolute;
+  width:  11%;
+  height: 8%;
+  top: 20%;
+  left:  40%;
+  opacity:0.2
+}
+
+.button3 {
+  z-index: 3;
+  
+  position: absolute;
+  width:  15%;
+  height: 8%;
+  top: 33%;
+  left:  58%;
+  opacity:0.2
+}
+
+
+.button4 {
+  z-index: 3;
+  
+  position: absolute;
+  width:  11%;
+  height: 8%;
+  top: 50%;
+  left:  62%;
+  opacity:0.2
+}
+
+.button5 {
+  z-index: 3;
+  
+  position: absolute;
+  width:  8%;
+  height: 8%;
+  top: 68%;
+  left:  58%;
+  opacity:0.2
+} 
+
+.button6 {
   z-index: 3;
   background: skyblue;
   position: absolute;
-  width:  43%;
-  height: 36%;
-  top: 18%;
-  left:  11%;
+  width:  14%;
+  height: 8%;
+  top: 80%;
+  left:  39%;
+  opacity:0.2
 }
+
+.button7 {
+  z-index: 3;
+ 
+  position: absolute;
+  width:  3%;
+  height: 8%;
+  top: 68%;
+  left:  30%;
+  opacity:0.2
+} 
+
+.button8 {
+  z-index: 3;
+  
+  position: absolute;
+  width:  7%;
+  height: 8%;
+  top: 52%;
+  left:  18%;
+  opacity:0.2
+} 
+
+.button9 {
+  z-index: 3;
+  
+  position: absolute;
+  width:  15%;
+  height: 25%;
+  top: 40%;
+  left:  38%;
+  opacity:0.2
+} 
+
 
   h1 {
   color: lightyellow;
@@ -49,3 +141,54 @@ body {
   	max-width: 1200px;
   }
 
+/*the pit */
+a:link {
+  color: darkred;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.thepit {
+	  color: lightyellow;
+  text-align: center;
+  margin-bottom: 25px;
+
+  margin-right: 200px;
+  margin-left: 200px;
+}
+ /*me*/ 
+ .me {
+	  color: lightyellow;
+  text-align: center;
+  margin-bottom: 25px;
+margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.merow {
+  display: flex;
+}
+
+.mecolumn {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/*myvideo*/
+
+.my {
+	margin-bottom: 25px;
+margin-top: 275px;
+  margin-right: 450px;
+  margin-left: 475px;
+}
+
+/*documentsme*/
+
+.myreport {
+	margin-top: 100px;
+	margin-left: 350px;
+	width: 50%;
+	height: 85%;
+}
