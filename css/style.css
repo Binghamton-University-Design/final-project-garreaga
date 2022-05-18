@@ -16,7 +16,7 @@ body {
 /* put backgroud: skyblue; to see them */
 .button1 {
   z-index: 3;
- 
+ 	background: red;
   position: absolute;
   width:  11%;
   height: 8%;
@@ -27,7 +27,7 @@ body {
 }
 .button2 {
   z-index: 3;
- 
+ background: red;
   position: absolute;
   width:  11%;
   height: 8%;
@@ -38,7 +38,7 @@ body {
 
 .button3 {
   z-index: 3;
-  
+  background: red;
   position: absolute;
   width:  15%;
   height: 8%;
@@ -50,7 +50,7 @@ body {
 
 .button4 {
   z-index: 3;
-  
+  background: red;
   position: absolute;
   width:  11%;
   height: 8%;
@@ -61,7 +61,7 @@ body {
 
 .button5 {
   z-index: 3;
-  
+  background: red;
   position: absolute;
   width:  8%;
   height: 8%;
@@ -72,8 +72,8 @@ body {
 
 .button6 {
   z-index: 3;
-  background: skyblue;
-  position: absolute;
+  background: red;
+   position: absolute;
   width:  14%;
   height: 8%;
   top: 80%;
@@ -83,7 +83,7 @@ body {
 
 .button7 {
   z-index: 3;
- 
+ background: red;
   position: absolute;
   width:  3%;
   height: 8%;
@@ -94,7 +94,7 @@ body {
 
 .button8 {
   z-index: 3;
-  
+  background: red;
   position: absolute;
   width:  7%;
   height: 8%;
@@ -105,7 +105,7 @@ body {
 
 .button9 {
   z-index: 3;
-  
+  background: red;
   position: absolute;
   width:  15%;
   height: 25%;
@@ -142,10 +142,9 @@ body {
   }
 
 /*the pit */
-a:link {
+a:hover {
   color: darkred;
-  background-color: transparent;
-  text-decoration: none;
+
 }
 
 .thepit {
@@ -191,4 +190,202 @@ margin-top: 275px;
 	margin-left: 350px;
 	width: 50%;
 	height: 85%;
+}
+
+
+/*history*/
+
+.historytxt {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-bottom: 25px;
+color: cornsilk;
+}
+
+.historytxtskull {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-bottom: 45px;
+color: darkred;
+font-size: 175px;
+text-align: center;
+
+}
+
+.historyimg {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 75%;
+
+  }
+.historyimgskull {
+float: left;
+  display: block;
+  margin-left: 200px;
+ 
+  }
+
+.homepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a.history:hover { 
+	color: darkred;
+}
+
+
+
+/*welcome 2 2007 */
+
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.emergencbutton {
+background-color: darkred;
+  z-index: 3;
+   position: absolute;
+  width:  20%;
+  height: 30%;
+  top: 80%;
+  left:  40%;
+  opacity:0.3;
+
+  transition-duration: 0.4s;
+}
+
+.emergencbutton:hover {
+  background-color:darkblue;
+  color: white;
+  opacity: 0.3;
+}
+
+/*2007*/
+
+.twotext {
+	font-family: Garamond, serif;
+margin-bottom: 25px;
+color: darkred;
+text-align: center;
+font-size: 100px;
+}
+
+.twonumbers {
+	font-family: Garamond, serif;
+margin-bottom: 25px;
+color: darkred;
+text-align: center;
+font-size: 30px;
+}
+
+
+.heart1 {
+	float: right;
+
+
+}
+.heart2 {
+	float: left;
+}
+
+.datexp {
+	font-family: Garamond, serif;
+margin-bottom: 25px;
+color: royalblue;
+text-align: center;
+font-size: 30px;
+}
+/*happy 4th*/
+
+.puppy1 {
+	float: left;
+}
+
+.puppy2 {
+	float: right;
+
+}
+
+.fourthtxt {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size: 40px;
+margin-bottom: 25px;
+color: darkslateblue;
+} 
+
+.garfield {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clck  {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
+
+/*report*/
+.reporttxt {
+	font-family: Garamond, serif;
+margin-bottom: 25px;
+color: black;
+text-align: left;
+font-size: 16px;
+}
+
+/*wildlife*/
+.wildlife {
+	float: right;
+	position: fixed; 
+	bottom: 0px; 
+	right: 0px;
+}
+
+.wildtxt {
+		font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-bottom: 25px;
+color: cornsilk;
+text-align: left;
+
+}
+
+/*updating*/
+
+.updatetxt {
+		font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-bottom: 25px;
+color: cornsilk;
+text-align: center;
+
+}
+
+.pucca {
+
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+
+}
+
+.abtmetxt {
+font-family: Garamond, serif;
+margin-bottom: 25px;
+color: whitesmoke;
+text-align: right;
+font-size: 16px;
+
 }
